@@ -77,6 +77,10 @@ namespace Assignment07
 
             //no boxing or unboxing occurs, we just take the values of the HiringDate class
             sortEmployees(empArr);
+            foreach (Employee item in empArr)
+            {
+                System.Console.WriteLine(item);
+            }
         }
 
         static void sortEmployees(Employee[] empArr)
